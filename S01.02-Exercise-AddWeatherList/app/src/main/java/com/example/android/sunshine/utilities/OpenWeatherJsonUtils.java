@@ -45,9 +45,9 @@ public final class OpenWeatherJsonUtils {
      */
     public static String[] getSimpleWeatherStringsFromJson(Context context, String forecastJsonStr)
             throws JSONException {
-
         /* Weather information. Each day's forecast info is an element of the "list" array */
         final String OWM_LIST = "list";
+
 
         /* All temperatures are children of the "temp" object */
         final String OWM_TEMPERATURE = "temp";
