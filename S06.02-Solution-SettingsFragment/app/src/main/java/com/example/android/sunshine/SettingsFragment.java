@@ -20,6 +20,7 @@ import android.support.v7.preference.PreferenceScreen;
  */
 // COMPLETED (4) Create SettingsFragment and extend PreferenceFragmentCompat
 public class SettingsFragment extends PreferenceFragmentCompat implements
+
         // COMPLETED (10) Implement OnSharedPreferenceChangeListener from SettingsFragment
         SharedPreferences.OnSharedPreferenceChangeListener {
 
